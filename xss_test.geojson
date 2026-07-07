@@ -1,1 +1,29 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4194, 37.7749]
+      },
+      "properties": {
+        "name": "<img src=x onerror=console.log('CANARY-GEOJSON-NAME')>",
+        "description": "<script>console.log('CANARY-GEOJSON-DESC')</script>",
+        "title": "<svg onload=console.log('CANARY-GEOJSON-TITLE')>",
+        "popupContent": "<iframe src=javascript:console.log('CANARY-GEOJSON-POPUP')>"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.9352, 40.7306]
+      },
+      "properties": {
+        "name": "Normal Point",
+        "description": "This should be safe"
+      }
+    }
+  ]
+}
